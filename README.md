@@ -60,9 +60,9 @@ MIT
 
 #### GitHub URL: https://github.com/min-hinthar
 
-#### GitHub Repo: https://github.com/min-hinthar/Min-MERN-Portfolio
+#### GitHub Repo: https://github.com/min-hinthar/admin-dashboard-mern-stack
 
-#### Email: min@hintharinc.com
+#### Email: min@mandalaymorningstar.com
 
 -----
 
