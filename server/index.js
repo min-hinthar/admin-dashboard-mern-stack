@@ -1,7 +1,7 @@
 // required modules imports
 import express from "express";
 import bodyParser from "body-parser";
-import mongoose from "mongoose";
+import mongoose, { mongo } from "mongoose";
 import cors from "cors";
 import dotenv from "dotenv";
 import helmet from "helmet";
@@ -27,3 +27,18 @@ app.use("/client", clientRoutes);
 app.use("/general", generalRoutes);
 app.use("/management", managementRoutes);
 app.use("/sales", salesRoutes);
+
+// MONGOOSE Configuration
+const PORT = process.env.PORT || 9000;
+
+mongoose
+.set("strictQuery", false);
+mongoose
+.connect(process.env.MONGO_URL, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+})
+.then(() => {
+    app.listen(PORT, () => console.log(`Server PORT running at: ${PORT}`));
+})
+.catch((error) => console.log(`${error}! Connection not successful!`) );
