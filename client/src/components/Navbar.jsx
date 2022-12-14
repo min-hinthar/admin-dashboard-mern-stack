@@ -25,7 +25,7 @@ const Navbar = () => {
         }}
     >
         <Toolbar sx={{ justifyContent: "space-between"}}>
-            { /* Leftside of Navbar */ }
+            { /* Left-side of Navbar */ }
             <FlexBetween>
                 <IconButton onClick={() => console.log('open/close sidebar')}>
                     <MenuIcon />
@@ -42,7 +42,7 @@ const Navbar = () => {
                     </IconButton>                       
                 </FlexBetween>
             </FlexBetween>
-            { /* Rightside of Navbar */}
+            { /* Right-side of Navbar */}
             <FlexBetween gap='1.5rem'>
                 <IconButton onClick={() => dispatch(setMode())}>
                     {theme.palette.mode === 'dark' ? (
