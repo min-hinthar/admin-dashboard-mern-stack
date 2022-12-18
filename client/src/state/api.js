@@ -23,7 +23,7 @@ export const api = createApi({
                 method: "GET",
                 params: { page, pageSize, sort, search },
             }),
-            providesTags: ["Transactions"]
+            providesTags: ["Transactions"],
          }),
     }),
 });
