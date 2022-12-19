@@ -50,7 +50,7 @@ mongoose
     app.listen(PORT, () => console.log(`Server PORT running at: ${PORT}`));
 
     // ADD USER DATA ONLY ONE TIME!
-    OverallStat.insertMany(dataOverallStat);
+    // OverallStat.insertMany(dataOverallStat);
     // Product.insertMany( dataProduct);
     // ProductStat.insertMany( dataProductStat);
     // Transaction.insertMany(dataTransaction);
