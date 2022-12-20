@@ -14,6 +14,7 @@ import {
 import {
     SettingsOutlined,
     ChevronLeft,
+    ChevronRight,
     ChevronRightOutlined,
     HomeOutlined,
     ShoppingCartOutlined,
@@ -31,8 +32,7 @@ import { useEffect, useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import FlexBetween from './FlexBetween';
 import profileImage from 'assets/profile.jpg';
-import { ListItemText } from '../../node_modules/@mui/material/index';
-import { ChevronRight } from '../../node_modules/@mui/icons-material/index';
+import { ListItemText } from '@mui/material';
 
 const navItems = [
     {
