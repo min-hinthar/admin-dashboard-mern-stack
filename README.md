@@ -1,5 +1,6 @@
 # Project Title [ Admin-Dashboard-Mern-Stack ]
 
+![Walkthrough GIF](https://github.com/min-hinthar/admin-dashboard-mern-stack/blob/main/Admin_Dashboard_E-Commerce_Min.gif)
 
 ## Table of Contents
 1. [Description](#description)
